@@ -18,4 +18,4 @@ A standalone ballistic trajectory calculator running on Cardputer ADV. Computes 
 
 In parameter edit menu, you should use **fn+.** to input demical **.**
 
-Arror keys always used as arror keys to avoid logic confusion.
+Arrow keys always used as arrow keys to avoid logic confusion.

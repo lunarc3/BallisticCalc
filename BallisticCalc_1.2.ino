@@ -3,7 +3,7 @@
  *  BALLISTIC CALCULATOR v1.2
  *  M5Stack Cardputer ADV (ESP32-S3FN8)
  *  - Fixed: drop sign, cartridge zero override, reset consistency
- *  ★ Added: numeric input, panel consolidation, caliber scroll
+ *  - Added: numeric input, panel consolidation, caliber scroll
  * ============================================================
  */
 #include <M5Cardputer.h>
@@ -52,7 +52,7 @@
 #define K_DOT 0x56
 
 // ═══════════════════════════════════════════════════════════
-//  ★ ALL STRUCT DEFINITIONS — must come before any functions
+//  ALL STRUCT DEFINITIONS
 // ═══════════════════════════════════════════════════════════
 
 struct Cart {
@@ -138,7 +138,7 @@ int    gOff = 0;
 // Cartridge selector state
 int    cartLevel = 0;
 int    calSel    = 0;
-int    calOff    = 0;   // ★ caliber list scroll offset
+int    calOff    = 0;   //caliber list scroll offset
 int    loadSel   = 0;
 
 // Range card view
